@@ -1,0 +1,35 @@
+User Story 1-  This test will do go through the first register with the valid credentials the Helo app in the 'https://helo.devmountain.com/#/' and verify that each valid credentials are correctly work for log in.
+
+
+User Story 2-  Then register with the invalid credentilas the Helo app in the 'https://helo.devmountain.com/#/' and verify that each invalid credentials are not correctly work for log in.
+
+Login information for User Story 1:
+Username: NewUserForAutomationTestingByGulen
+password: NewUserForAutomationTestingByGulen
+
+1. Navigate to 'https://helo.devmountain.com/#/
+   *Verify that you are on the homepage
+2. Click on the Username input field.
+   *write the username as "NewUserForAutomationTestingByGulen"
+3. Click on the Password input field.
+   *write the user name as "NewUserForAutomationTestingByGulen"
+4. Click on the register button.
+   *User can see the your username in the left top of site the web page.
+5. Verify the username.
+
+
+
+
+Login information for User Story 2:
+Username: NewUserForAutomationTestingByGulen
+password: leave this field
+
+1. Navigate to 'https://helo.devmountain.com/#/
+   *Verify that you are on the homepage
+2. Click on the Username input field.
+   *write the user name as "NewUserForAutomationTestingByGulen"
+3. Click on the Password input field.
+   *leave this field 
+4. Click on the register button.
+   *User can see the password field does not be empty text.
+5. Verify the text with using getText() method.
