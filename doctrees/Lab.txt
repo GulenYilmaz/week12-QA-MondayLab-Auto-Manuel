@@ -1,0 +1,40 @@
+Automating Manual Tests
+Introduction
+In today’s lab, you’ll be writing more in-depth UI tests. Using Selenium, you should automate the tests that you planned out for Helo in the “Working in a Team” lab.
+
+Instructions
+Setup
+Locate your test plan from the “Working in a Team” lab
+
+Download this lab exercise’s folder from Frodo
+
+In your terminal cd into that downloaded folder, run npm install, and open the folder up in VS Code
+
+Open up the package.json file and locate the test script – this is what happens when you execute npm run test
+
+Take a look at the dependencies in here as well, when you ran npm install, these are the packages that were installed and stored in node_modules
+
+In your folder, create a file called helo.test.js and do your basic setup
+
+bring in Builder and Capabilities from selenium-webdriver
+
+bring in chromedriver
+
+create your driver
+
+write a beforeAll and afterAll
+
+Chromedriver
+
+If you’re concerned about Chromedriver working, make sure that you check what version of Chrome you’re using. If the number doesn’t match up with the Chromedriver version in the package.json, then you’ll need to fix it so they match. Either update Chrome so that it matches Chromedriver or install a different version of Chromedriver.
+
+To install a different version: delete the node_modules folder and package-lock.json files. Do not delete package.json. In package.json, change the Chromedriver version to match whatever version of Chrome you’re running. Run npm i again and you should have matching versions.
+
+Automating Tests
+In this section, you’ll automate your tests from your Helo test plan. You can set them up in different files if you’d like, or write them all in your main test file.
+
+Identify all the tests that can be automated
+
+Write a test function for each of them
+
+When you’re done, push your code to GitH
